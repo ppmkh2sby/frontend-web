@@ -1,18 +1,13 @@
 import Navbar from "../components/Navbar";
-import ppm from '../assets/image/ppm.jpg';
+import About from "./landingPage/About";
+import Home from "./landingPage/Home";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-neutral-100 w-full h-screen"
-        style={{
-          backgroundImage: `url(${ppm})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-      </div>
+      <Home />
+      <About />
     </>
   );
 }
