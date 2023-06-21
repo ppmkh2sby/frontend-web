@@ -6,7 +6,7 @@ const About = () => {
             <div className='absolute text-[40px] text-black' style={{ left: '13%', top: '101px' }}>
                 <h1 className=''>ABOUT US</h1>
             </div>
-            <div className='border-solid border-2 border-purple-400 rounded-lg w-[670px] h-[350px] mt-12 drow-shadow-lg top-[140px] flex items-center justify-center'>
+            <div className='border-solid border-2 rounded-lg w-[670px] h-[350px] mt-12 shadow- xl top-[140px] flex items-center justify-center'>
                 <div className='w-1/2 pl-6'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minima doloremque possimus vitae consequuntur beatae facilis sequi incidunt rem ut harum optio aliquam repellat, ratione voluptate quia ex nesciunt ullam, quibusdam vel accusantium similique. Sequi possimus praesentium vero, qui velit voluptate est, omnis rem minima, ad officia. Impedit, cupiditate officia.
                 </div>
