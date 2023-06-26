@@ -15,15 +15,19 @@ function Login() {
                             <span className='text-lg font-bold mt-5'>PASSWORD</span>
                             <input type='email' name='email' placeholder='Password' className='bg-gray-100 w-full h-10 mt-1 px-3 focus:outline-none rounded-2xl' />
                         </label>
-                        <button className='rounded-full w-full h-10 bg-green-400 mt-4 text-white'>Sign In</button>
-                        <div className='text-xl flex text-green-400 mt-3 items-center'>
-                            <ion-icon name="checkbox"></ion-icon>
-                            <p className='text-sm ml-1'>Remember Me</p>
+                        <button className='rounded-full w-full h-10 bg-green-400 mt-4 text-white focus:outline-none'>Sign In</button>
+                        <div className='flex mt-3 items-center'>
+                            <input type='checkbox' className='form-checkbox text-green-400 checked:bg-green-400'/>
+                            <p className='text-sm ml-1 text-green-400'>Remember Me</p>
                             <div className='flex-grow'></div>
                             <a href='' className='text-sm ml-1 text-black'>Forgot Password</a>
                         </div>
                     </div>
-                    <div className='w-1/2 bg-green-400 rounded-r-xl'></div>
+                    <div className='w-1/2 bg-green-400 rounded-r-xl flex flex-col items-center justify-center'>
+                        <p className='text-white text-3xl font-bold'>Welcome to Login</p>
+                        <p className='text-white text-lg'>Don't have an account?</p>
+                        <button className='rounded-full w-24 h-10 mt-4 text-white border border-solid border-white'>Sign Up</button>
+                    </div>
                 </div>
             </div>
         </div>
