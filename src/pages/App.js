@@ -1,19 +1,15 @@
-import Navbar from "../components/Navbar";
-import About from "./landingPage/About";
-import Activities from "./landingPage/Activities";
 import Home from "./landingPage/Home";
 import Login from "./login/Login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
-      {/* <Navbar />
-      <Home />
-      <About />
-      <Activities /> */}
-
-      <Login />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Router>
   );
 }
 

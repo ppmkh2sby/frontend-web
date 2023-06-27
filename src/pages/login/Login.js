@@ -22,7 +22,7 @@ function Login() {
                             <input type='checkbox' className='form-checkbox text-green-400 checked:bg-green-400' />
                             <p className='text-sm ml-1 text-green-400'>Remember Me</p>
                             <div className='flex-grow'></div>
-                            <a href='' className='text-sm ml-1 text-black'>Forgot Password</a>
+                            <p className='text-sm ml-1 text-black'>Forgot Password</p>
                         </div>
                     </div>
                     <div className='w-1/2 bg-green-400 rounded-r-xl flex flex-col items-center justify-center'>

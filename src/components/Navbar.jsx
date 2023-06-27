@@ -1,14 +1,14 @@
-import React from "react";
-import logoPens from "../assets/image/logoPens.png";
+import { React, useState } from "react";
+import logoPPM from "../assets/image/logoPPM.png";
 import Button from "./Button";
-import { useState } from 'react';
+
 
 const Navbar = () => {
   let Links = [
     { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "/" },
-    { name: "ACTIVITIES", link: "/" },
-    { name: "CONTACT", link: "/" },
+    { name: "ABOUT", link: "/about" },
+    { name: "ACTIVITIES", link: "/activites" },
+    { name: "CONTACT", link: "/contact" },
   ];
   let [open,setOpen]=useState(false);
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="md:flex justify-between items-center bg-gray-800 py-4 bg-opacity-25 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
           <span className="mr-2 pt-2">
-            <img src={logoPens} width={50} alt="logoPens" />
+            <img src={logoPPM} width={50} alt="logoPPM" />
           </span>
           PPMKH2
         </div>
