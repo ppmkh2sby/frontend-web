@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
   let [open,setOpen]=useState(false);
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="shadow-md w-full fixed top-0 left-0 z-10">
       <div className="md:flex justify-between items-center bg-gray-800 py-4 bg-opacity-25 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
           <span className="mr-2 pt-2">

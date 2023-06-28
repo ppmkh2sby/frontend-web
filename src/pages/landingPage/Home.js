@@ -14,13 +14,12 @@ const Home = () => {
                     backgroundPosition: "center",
                 }}
             >
-                <Navbar />
                 <div className='absolute flex-col text-white text-center font-bold text-[40px]'>
                     <h1 className=''>PONDOK PESANTREN MAHASISWA</h1>
                     <h1 className=''>KHOIRUL HUDA 2 SURABAYA</h1>
                 </div>
-
             </div>
+            <Navbar />
             <About />
             <Activities />
         </>
