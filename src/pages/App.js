@@ -3,6 +3,8 @@ import Login from "./login/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NotFound from "./login/NotFound";
 import Sidebar from "../components/Sidebar";
+import DashboardNavbar from "../components/DashboardNavbar";
+import Dashboard from "./admin/Dashboard";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/sidebar" element={<Sidebar />} />
+        <Route path="/dashboardNavbar" element={<DashboardNavbar />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
