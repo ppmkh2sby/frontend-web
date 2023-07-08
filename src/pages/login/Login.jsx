@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+    const navigate = useNavigate();
     return (
         <div>
             <div className='w-full h-screen flex items-center justify-center'>
@@ -16,7 +18,7 @@ function Login() {
                                 <span className='text-lg font-bold mt-5'>PASSWORD</span>
                                 <input type='email' name='email' placeholder='Password' className='bg-gray-100 w-full h-10 mt-1 px-3 focus:outline-none rounded-2xl' />
                             </label>
-                            <button className='rounded-full w-full h-10 bg-green-400 mt-4 text-white focus:outline-none'>Sign In</button>
+                            <button onClick={() => navigate('/dashboard')} className='rounded-full w-full h-10 bg-green-400 mt-4 text-white focus:outline-none'>Sign In</button>
                         </form>
                         <div className='flex mt-3 items-center'>
                             <input type='checkbox' className='form-checkbox text-green-400 checked:bg-green-400' />
