@@ -38,8 +38,7 @@ function Dashboard() {
         </div>
         <div className="flex grid grid-cols-4 pt-10">
           <div className="bg-green-400 shadow-md rounded-lg w-60 h-40 flex flex-col px-4 justify-center">
-            <div className="text-white flex items-center text-2xl ">
-              <ion-icon name="person"></ion-icon>
+            <div className="text-white flex items-center text-2xl ">              <ion-icon name="person"></ion-icon>
               <h1 className="ml-2">Santri Aktif</h1>
             </div>
             <div>36 Santri</div>

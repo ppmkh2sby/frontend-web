@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='w-full h-screen relative flex items-center justify-center'>
+        <div className='w-full h-screen relative flex items-center justify-center' id='about'>
             <div className='absolute text-[40px] font-bold' style={{ left: '13%', top: '101px' }}>
                 <h1 className=''>ABOUT US</h1>
             </div>
