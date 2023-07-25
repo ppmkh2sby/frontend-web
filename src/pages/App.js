@@ -6,6 +6,8 @@ import Sidebar from "../components/Sidebar";
 import DashboardNavbar from "../components/DashboardNavbar";
 import Dashboard from "./admin/Dashboard";
 import User from "./admin/User";
+import AddUser from "./admin/AddUser";
+import DetailUser from "./admin/DetailUser";
 
 const App = () => {
   return (
@@ -15,8 +17,10 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/sidebar" element={<Sidebar />} />
         <Route path="/dashboardNavbar" element={<DashboardNavbar />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/dashboard/user" element={<User />}/>
+        <Route path="/admin" element={<Dashboard />} />
+        <Route path="/user" element={<User />} />
+        <Route path="/addUser" element={<AddUser />} />
+        <Route path="/detail" element={<DetailUser />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
